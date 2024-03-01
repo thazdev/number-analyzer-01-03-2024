@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            Número (entre 1 e 100): <input type="number" name="numero" id="fnum"> 
+            <input type="button" value="Adicionar" id="add" onclick="adicionar()">
+            <p><select name="tabela" id="ftab" class="tabela" size="10px"></select></p>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="res">
+        
+        </div>
+    </section>
+    <footer>
+        <p>&copy; github.com/thazdev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
